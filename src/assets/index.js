@@ -9,6 +9,21 @@ const Picture = {
     lbody1: require('../assets/images/lbody1.png'),
     lbody2: require('../assets/images/lbody2.png'),
     lbody3: require('../assets/images/lbody3.png'),
+    bbody1: require('../assets/images/bbody1.png'),
+    bbody2: require('../assets/images/bbody2.png'),
+    bbody3: require('../assets/images/bbody3.png'),
+    bbody4: require('../assets/images/bbody4.png'),
+    bbody5: require('../assets/images/bbody5.png'),
+    ring: require('../assets/images/ring.png'),
+    ring2: require('../assets/images/ring2.png'),
+    request1: require('../assets/images/request1.png'),
+    request2: require('../assets/images/request2.png'),
+    form1: require('../assets/images/form1.png'),
+    form2: require('../assets/images/form2.png'),
+    form3: require('../assets/images/form3.png'),
+    form4: require('../assets/images/form4.png'),
+    form5: require('../assets/images/form5.png'),
+    form6: require('../assets/images/form6.png'),
 }
 export default Picture
 

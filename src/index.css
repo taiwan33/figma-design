@@ -6,4 +6,23 @@
   .image {
     @apply rounded-xl;
   }
+  .btn {
+    @apply px-3 py-2 rounded-full;
+  }
+  .form-input {
+    @apply px-3 py-1 border border-blue-500 rounded-lg;
+  }
+}
+
+.clip_path {
+  clip-path: polygon(
+    30% 2%,
+    70% 2%,
+    100% 0,
+    100% 100%,
+    72% 98%,
+    31% 98%,
+    0 100%,
+    0 0
+  );
 }
