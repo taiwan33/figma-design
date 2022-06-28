@@ -1,25 +1,55 @@
 import React from 'react'
-import Picture from '../assets'
+import Picture, { Twitter, Facebook, Wifi, Media } from '../assets'
 
 const Footer = () => {
     return (
-        <div className='grid text-center pt-16 bg-gradient-to-b from-[white] to bg-[#ECF0DE]'>
-            <div className=' gap-4'>
-                <p className='text-[#272D4E] text-4xl'>Contact us</p>
+        <>
+            <div className='flex justify-center gap-x-6 mt-11'>
+                <div>
+                    <div>
+                        <hr className='bg-[#239CAC] w-[380px] h-1' />
+                        <div className='flex mt-3 items-center gap-3'>
+                            <img src={Picture.footer} alt="" />
+                            <p className='text-xs'>accredited Body to the Lazio Region</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div className='text-xs'>
+                        <hr className='bg-[#239CAC] w-[180px] h-1' />
+                        <div className='mt-3'>
+                            <p>Centro Studi Civita 2000 sas</p>
+                            <p>VAT number 01677660563</p>
+                            <p>Loc. Pizzo Garofalo</p>
+                            <p>01033 Civita Castellana (VT)</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div className='text-xs'>
+                        <hr className='bg-[#239CAC] w-[180px] h-1' />
+                        <div className='mt-3'>
+                            <p>Tel / Fax</p>
+                            <p> 0761.515963</p>
+                            <p> segreteria@centrostudicivita.it</p>
+                            <p> centrostudicivita.it</p>
+                            <p> Quality Charter</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div className='flex justify-around text-center'>
-                <img src={Picture.form1} alt="" />
-                <p className='text-xl font-medium'>fill out the form to receive <br />more information</p>
-                <img src={Picture.form5} alt="" />
+            <div className='flex justify-evenly mt-6'>
+                <div className='flex gap-5'>
+                    <Twitter />
+                    <Facebook />
+                    <Wifi />
+                    <Media />
+                </div>
+                <div>
+                    <p className='text-[#272D4E] text-sm'>centrostudicivita 2021 - TERMS & CONDITIONS  PRIVACY POLICY</p>
+                </div>
             </div>
-            <form className='bg-white grid grid-cols-2 mx-[10%] my-[2%] gap-6 p-6'>
-                <input className='form-input' placeholder='Name' />
-                <input className='form-input' placeholder='Surname' />
-                <input className='form-input' placeholder='Telephone' />
-                <input className='form-input' placeholder='Email' />
-                <input className='form-input w-full' placeholder='Write a message here to get apointment' />
-            </form>
-        </div>
+        </>
     )
 }
 

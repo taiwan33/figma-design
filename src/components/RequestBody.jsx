@@ -12,7 +12,7 @@ const RequestBody = () => {
                     </span>
                 </div>
                 <div className='mt-4 relative'>
-                    <buttom className="bg-[#70C217] text-white px-7 py-1 rounded-full font-normal absolute z-10 -left-[84px] top-0">Corso Dattilografia</buttom>
+                    <button className="bg-[#70C217] text-white px-7 py-1 rounded-full font-normal absolute z-10 -left-[84px] top-0">Corso Dattilografia</button>
                     <ul className='list-disc space-y-4 mt-20'>
                         <li>Typology Course Typing</li>
                         <li>Registrations ALWAYS OPEN</li>
@@ -22,8 +22,8 @@ const RequestBody = () => {
                 </div>
             </div>
             <div className='flex justify-center gap-4 mt-6'>
-                <buttom className='rounded-full bg-[#7F67AA] text-white text-xs px-7 py-3' >Request Info</buttom>
-                <buttom className="rounded-full text-xs border-[#239CAC] border px-7 py-3 text-[#239CAC]">Buy Now</buttom>
+                <button className='rounded-full bg-[#7F67AA] text-white text-xs px-7 py-3' >Request Info</button>
+                <button className="rounded-full text-xs border-[#239CAC] border px-7 py-3 text-[#239CAC]">Buy Now</button>
             </div>
         </>
     )
