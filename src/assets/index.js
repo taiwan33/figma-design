@@ -1,9 +1,7 @@
 import { ReactComponent as Logo } from "../assets/icons/logo.svg";
 import { ReactComponent as Twitter } from "../assets/icons/Vector.svg";
 import { ReactComponent as Facebook } from "../assets/icons/Vector1.svg";
-import { ReactComponent as Wifi } from "../assets/icons/Vector2.svg";
 import { ReactComponent as Media } from "../assets/icons/Vector3.svg";
-
 
 const Picture = {
     Side1: require('../assets/images/side1.png'),
@@ -31,7 +29,9 @@ const Picture = {
     form5: require('../assets/images/form5.png'),
     form6: require('../assets/images/form6.png'),
     footer: require('../assets/images/footer.png'),
+    wifi: require('../assets/icons/wifi.jpg'),
+    dots: require('../assets/icons/dots.png'),
 }
 export default Picture
 
-export { Logo, Twitter, Facebook, Wifi, Media }
+export { Logo, Twitter, Facebook, Media }
