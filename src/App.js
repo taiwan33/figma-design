@@ -8,7 +8,7 @@ import RequestBody from "./components/RequestBody";
 
 function App() {
   return (
-    <div className=" bg-gradient-to-b from-[#E5EFFF] to bg-white ">
+    <div className=" ">
       <Header />
       <Body />
       <LowerBody />
