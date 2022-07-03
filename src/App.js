@@ -8,7 +8,7 @@ import RequestBody from "./components/RequestBody";
 
 function App() {
   return (
-    <div className=" ">
+    <div className=" 2xl:container mx-auto">
       <Header />
       <Body />
       <LowerBody />

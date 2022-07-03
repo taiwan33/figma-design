@@ -12,11 +12,13 @@ const Contact = () => {
                 <p className='text-sm md:text-lg font-medium md:text-black text-[#94A2B3]'>fill out the form to receive <br />more information</p>
                 <img className='h-16 md:h-24 w-auto' src={Picture.form5} alt="" />
             </div>
-            <form className='flex justify-around place-items-center text-[#94A2B3] mt-3 w-[100%]'>
+            <form className='flex justify-around place-items-center relative text-[#94A2B3] mt-3 w-[100%] z-10'>
+                <img src={Picture.dot} className="h-72 rotate-90 absolute right-32 top-52 z-0" alt="" />
+
                 <div className='hidden md:flex'>
                     <img className='h-24 w-auto' src={Picture.form3} alt="" />
                 </div>
-                <div className='bg-white w-[90%] rounded-xl'>
+                <div className='bg-white z-20 w-[90%] rounded-xl'>
                     <div className=' grid md:grid-cols-2 gap-4 p-6'>
                         <input className='form-input' placeholder='Name*' />
                         <input className='form-input' placeholder='Surname*' />
@@ -38,7 +40,7 @@ const Contact = () => {
             </form>
             <div className='flex justify-around py-3'>
                 <img className='h-12 md:h-24 w-auto' src={Picture.form1} alt="" />
-                <img className='h-12 md:h-24 w-auto' src={Picture.form6} alt="" />
+                <img className='h-12 md:h-24 w-auto relative z-20' src={Picture.form6} alt="" />
             </div>
         </div>
     )

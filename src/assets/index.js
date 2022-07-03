@@ -31,6 +31,8 @@ const Picture = {
     footer: require('../assets/images/footer.png'),
     wifi: require('../assets/icons/wifi.jpg'),
     dots: require('../assets/icons/dots.png'),
+    white: require('./icons/white.png'),
+    dot: require('./icons/dots.png'),
 }
 export default Picture
 
