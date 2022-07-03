@@ -5,14 +5,14 @@ const Contact = () => {
     return (
         <div className=' pt-12 bg-gradient-to-b from-[#ECF0DE] to bg-[#ECF0DE]'>
             <div className='flex justify-center gap-4 '>
-                <p className='text-[#272D4E] font-semibold text-4xl'>Contact us</p>
+                <p className='text-[#272D4E] font-semibold text-5xl'>Contact us</p>
             </div>
             <div className='flex justify-around text-center pt-4'>
                 <img className=' h-16 md:h-24 w-auto' src={Picture.form1} alt="" />
-                <p className='text-sm md:text-lg font-medium md:text-black text-[#94A2B3]'>fill out the form to receive <br />more information</p>
+                <p className='text-xl md:text-lg font-medium md:text-black text-[#94A2B3]'>fill out the form to receive <br />more information</p>
                 <img className='h-16 md:h-24 w-auto' src={Picture.form5} alt="" />
             </div>
-            <form className='flex justify-around place-items-center relative text-[#94A2B3] mt-3 w-[100%] z-10'>
+            <form className='flex justify-around place-items-center relative text-[#94A2B3] mt-3 w-[100%] z-10' onSubmit={(e) => e.preventDefault()}>
                 <img src={Picture.dot} className="h-72 rotate-90 absolute right-32 top-52 z-0" alt="" />
 
                 <div className='hidden md:flex'>
@@ -28,7 +28,7 @@ const Contact = () => {
                     </div>
                     <div className='flex ml-6 place-items-center gap-6'>
                         <input type='checkbox' id='consent' />
-                        <label htmlFor='consent' className='text-sm'>I consent to the processing of my personal data.</label>
+                        <label htmlFor='consent' className='text-lg'>I consent to the processing of my personal data.</label>
                     </div>
                     <div className='flex justify-center my-4'>
                         <button className='flex justify-center rounded-full w-full mx-7 md:w-16 bg-[#7F67AA] text-white text-lg md:text-xs px-16 py-2' >Send</button>

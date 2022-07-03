@@ -4,7 +4,7 @@ import Picture, { Twitter, Facebook, Media } from '../assets'
 const Footer = () => {
     return (
         <>
-            <div className='grid grid-cols-2 justify-items-center md:flex md:justify-center gap-x-6 mt-11'>
+            <div className='grid grid-cols-2 justify-items-center md:flex md:justify-center gap-x-6 mt-11 font-medium'>
                 <div>
                     <hr className='bg-[#239CAC] w-[210%] h-1' />
                     <div className=''>

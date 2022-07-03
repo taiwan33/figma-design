@@ -14,7 +14,7 @@ const Header = () => {
     return (
         <>
             <div className='flex relative justify-around items-center pt-6 w-full bg-[#E5EFFF]'>
-                <img src={Picture.white} className=" h-[500px] w-auto z-10 absolute left-[32%] top-1" alt="" />
+                <img src={Picture.white} className="cursor-pointer h-[500px] w-auto z-10 absolute left-[32%] top-1" alt="" />
                 <div className=''>
                     <Icons.Logo className='h-[100px] w-auto z-30 relative object-cover ' />
                 </div>
@@ -31,7 +31,7 @@ const Header = () => {
                 <ul className={`block pt-6 pr-5 space-y-2 top-0 md:space-y-0 absolute md:relative z-20 md:flex md:gap-x-5 transition-all duration-500 ${isOpen ? "right-6" : " right-6 -top-[212%]"}`}>
                     {
                         List.map((item, i) => (
-                            <li key={i} className=' list-none'>{item.name}</li>
+                            <li key={i} className=' text-lg cursor-pointer list-none'>{item.name}</li>
                         ))
                     }
                 </ul>

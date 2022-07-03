@@ -13,11 +13,11 @@ const LowerBody = () => {
                 </div>
             </div>
             <div className='flex-1 pt-6 px-[12%]'>
-                <p className='text-4xl font-bold text-[#272D4E] z-20 relative'>Typing Course</p>
-                <p className="mt-[23px] mb-[35px] text-[12px] relative z-20">
+                <p className='text-5xl font-bold text-[#272D4E] z-20 relative'>Typing Course</p>
+                <p className="mt-[23px] mb-[35px] text-[17px] relative z-20">
                     The aim of this course is to introduce the potential of the keyboard and to convey, to those who intend to undertake the proposed educational path, the notions for writing correctly with 10 fingers without looking at the keyboard (blind keyboard).
                 </p>
-                <p className='text-[#299EF3]'>Check for Forums?</p>
+                <p className='text-[#299EF3] text-[17px]'>Check for Forums?</p>
             </div>
         </div>
     )

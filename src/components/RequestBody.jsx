@@ -13,11 +13,11 @@ const RequestBody = () => {
                         <img src={Picture.dot} className=" hidden md:flex h-72 absolute right-32 -top-20" alt="" />
                         <img src={Picture.dot} className="hidden md:flex h-[366px] absolute -right-72 -top-2" alt="" />
 
-                        <button className="bg-[#70C217] text-white px-7 py-2 rounded-full font-normal absolute z-30 right-44 top-[93%] md:-right-44 md:top-4 ">Corso Dattilografia</button>
+                        <button className="bg-[#70C217] text-white px-7 text-lg py-2 rounded-full font-normal absolute z-30 right-[31%] top-[93%] md:-right-44 md:top-4 ">Corso Dattilografia</button>
                     </span>
                 </div>
                 <div className='mt-4 grid place-items-center '>
-                    <ul className=' text-sm list-disc space-y-4 bg-white z-20 pt-0 md:pt-10 pb-0 md:pb-10 mt-8 -ml-4'>
+                    <ul className=' text-md list-disc space-y-4 bg-white z-20 pt-0 md:pt-10 pb-0 md:pb-10 mt-8 -ml-4'>
                         <li>Typology Course Typing</li>
                         <li>Registrations ALWAYS OPEN</li>
                         <li>Full online delivery mode</li>
