@@ -28,10 +28,10 @@ const Header = () => {
                         <div className='h-0.5 w-6 bg-black'></div>
                     </div>
                 )}
-                <ul className={`block pt-6 pr-5 space-y-2 top-0 md:space-y-0 absolute md:relative z-20 md:flex md:gap-x-5 transition-all duration-500 ${isOpen ? "right-6" : " right-6 -top-[212%]"}`}>
+                <ul className={`block pt-6 pr-5 space-y-2 top-0 md:space-y-0 absolute md:relative z-20 md:flex md:gap-x-3 lg:gap-x-5 transition-all duration-500 ${isOpen ? "right-6" : " right-6 -top-[212%]"}`}>
                     {
                         List.map((item, i) => (
-                            <li key={i} className=' text-lg cursor-pointer list-none'>{item.name}</li>
+                            <li key={i} className='text-md lg:text-lg cursor-pointer list-none'>{item.name}</li>
                         ))
                     }
                 </ul>

@@ -35,12 +35,12 @@ const BelowBody = () => {
                         <button className='bg-[#239CAC] btn text:2xl md:text-lg'>Read the  Documentation</button>
                     </div>
                     <div className='flex-1'>
-                        <div className='flex '>
+                        <div className='flex'>
                             <div className='relative'>
-                                <img className='flex-shrink-0 object-contain h-[400px] w-auto relative z-10' src={Picture.bbody1} alt="" />
+                                <img className='flex-shrink-0 object-contain h-[360px] w-auto relative z-10' src={Picture.bbody1} alt="" />
                                 <img className='flex-shrink-0 object-contain h-10 w-auto absolute top-1 left-24 z-20' src={Picture.ring2} alt="" />
-                                <img className='flex-shrink-0 object-contain h-40 w-auto absolute top-0 -right-16' src={Picture.ring} alt="" />
-                                <img src={Picture.dot} className="flex-shrink-0 object-contain h-[272px] rotate-90 absolute right-4 top-32" alt="" />
+                                <img className='flex-shrink-0 object-contain h-32 w-auto absolute top-0 -right-12' src={Picture.ring} alt="" />
+                                <img src={Picture.dot} className="flex-shrink-0 object-contain h-[272px] w-auto rotate-90 absolute right-8 md:right-4 top-32" alt="" />
 
                             </div>
                         </div>
@@ -70,14 +70,14 @@ const BelowBody = () => {
                     <div className='w-[6%]'></div>
                     <div className=' space-y-5 flex-1 place-self-center pt-5 md:pt-0 pr-[4%]'>
                         <p className='text-3xl font-semibold'>Legislation</p>
-                        <p className='text-md  tracking-wider'>In accordance with this decree, the FAQ 16 of the MIUR is reported where it is defined what is meant by Typing Course: "Certificate of professional training for typing or certificate of professional training for mechanographic services issued at the end of professional courses established by the State, the Regions or other public bodies (only one certificate is evaluated) contained in the evaluation tables of the qualifications attached to Ministerial Decree 640 of 2017 ".</p>
+                        <p className='text-md tracking-wider'>In accordance with this decree, the FAQ 16 of the MIUR is reported where it is defined what is meant by Typing Course: "Certificate of professional training for typing or certificate of professional training for mechanographic services issued at the end of professional courses established by the State, the Regions or other public bodies (only one certificate is evaluated) contained in the evaluation tables of the qualifications attached to Ministerial Decree 640 of 2017 ".</p>
                         <button className='bg-[#239CAC] btn text:2xl md:text-xl'>Read the  Documentation</button>
                     </div>
                     <div className='flex-1 '>
                         <div className='relative'>
                             <img className='flex-shrink-0 object-contain h-[400px] w-auto relative z-10' src={Picture.bbody4} alt="" />
                             <img className='flex-shrink-0 object-contain h-10 w-auto absolute -top-7 left-[8%] z-20' src={Picture.ring2} alt="" />
-                            <img className='flex-shrink-0 object-contain h-44 w-auto absolute -top-[9%] -right-[5%]' src={Picture.ring} alt="" />
+                            <img className='flex-shrink-0 object-contain h-44 w-auto absolute -top-[9%] -right-[19%] lg:-right-[14%] xl:right-[25%]' src={Picture.ring} alt="" />
                             <img src={Picture.dot} className="flex-shrink-0 object-contain h-72 rotate-90 absolute right-[7%] top-[26%]" alt="" />
                         </div>
                     </div>

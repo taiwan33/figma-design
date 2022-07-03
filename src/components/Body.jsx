@@ -8,7 +8,7 @@ const Body = () => {
             <div className='md:flex-row flex flex-col-reverse justify-between py-32 md:pt-32 md:pb-40 bg-gradient-to-b from-[#E5EFFF] to bg-white'>
                 <div className='grid place-items-center text-center  w-[100%] md:w-[50%]'>
                     <p className='text-6xl mt-8 font-bold text-[#272D4E]'>Typing <br className='hidden md:block' /> Course</p>
-                    <p className="mt-[33px] mx-[12%] mb-[40px] text-[33px] z-20 relative md:text-[29px] text-[#94A2B3]">
+                    <p className="mt-[33px] mx-[12%] mb-[40px] text-[23px] z-20 relative md:text-[23px] text-[#94A2B3]">
                         The Typing Course is a training course on the correct use of the keyboard.
                         In an age where you write much more with the keyboard than with the pen, it becomes necessary to acquire the skills to write with 10 fingers.
                     </p>
